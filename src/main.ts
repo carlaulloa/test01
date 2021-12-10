@@ -46,7 +46,27 @@ let items: Item[] = [
     name: 'Conjured',
     quality: 20,
     sellIn: 10
-  }
+  },
+  {
+    name: 'Backstage passes to a TAFKAL80ETC concert',
+    quality: 32,
+    sellIn: 5
+  },
+  {
+    name: 'Sulfuras, Hand of Ragnaros',
+    quality: 80,
+    sellIn: 3
+  },
+  {
+    name: 'Backstage passes to a TAFKAL80ETC concert',
+    quality: 30,
+    sellIn: 0
+  },
+  {
+    name: 'Backstage passes to a TAFKAL80ETC concert',
+    quality: 30,
+    sellIn: -1
+  },
 ];
 let gr: GildedRose = new GildedRose(items);
 gr.updateQuality();
